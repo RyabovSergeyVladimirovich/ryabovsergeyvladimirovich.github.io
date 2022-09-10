@@ -1,0 +1,122 @@
+
+body {
+    /* width: 500px;*/
+    background:
+    url("img/fon1.jpg");
+    font-family: arial;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+    
+    
+}   
+
+.cards{
+    display: flex;
+    justify-content: center
+}
+.card {
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+    background-color: rgb(53, 2, 173);
+    /*box-shadow: 0 15px 20px #ccc;*/
+    border-radius: 10px;
+    padding: 30px;
+}
+.card2 {
+    margin: 0;
+    padding: 40px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    /*box-shadow: 0 15px 20px #ccc;*/
+    border-radius: 10px;
+}
+
+.card__foto {
+    display: block;
+    width: 500px;
+    height: 500px;
+    /*border-radius: 50%;*/
+    margin: 0;
+}
+.head__one {
+    margin: 0   ;
+    font-size: 40px;
+    color: rgb(87 202 210);
+    padding-left: 15px;
+}
+.subtitle {
+    color: rgb(87 202 210);
+    margin: 0 auto;
+    font-size: 40px;
+    margin-bottom: 10px;
+    background: rgb(77, 3, 248);
+    padding-left: 30px;
+    border-radius: 15px;
+}
+.card__list {
+    margin: 0 auto;
+    font-size: 25px;
+    padding-left: 0px;
+    list-style-position: inside;
+    color:rgb(255, 255, 255);
+}
+.head__two{
+    font-size: 30px;
+    color: #ccc;
+    padding-left: 30px;
+}
+.courses{
+    font-weight: bold;
+    font-size: 28px;
+    color:aliceblue;
+    line-height: 0.7;
+}
+.subtitle2{
+    border-radius: 10px;
+    background: rgb(77, 3, 248);
+    padding-left: 30px;
+    
+}
+.foto__mini{
+    width: 50px;
+    /*height: 20px;*/
+    float:left;
+    margin-top: 6px;
+    margin-left: -9px;
+    margin-right: 15px;
+}
+.all{
+    color:aliceblue;
+    font-size: 25px;
+    line-height: 0.6;
+    padding-left: 5px;
+    text-decoration:none
+}
+.card__list1{
+    color:rgb(154, 153, 153)
+}
+.courses1{
+    font-weight: bold;
+    font-size: 28px;
+    color:rgb(87 202 210);
+    line-height: 1.4;
+}   
+.foto__li{
+    width: 25px;
+    margin-top: -8px;
+    margin-right: 10px;
+    position:relative;
+    
+}
+.all1{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    line-height: 0.7;
+    
+}
+.link{
+    text-decoration:none;
+    color:aliceblue;
+}
